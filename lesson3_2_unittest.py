@@ -22,7 +22,7 @@ class TestRegistration (unittest.TestCase):
 
             welcome_text = browser.find_element(By.TAG_NAME, "h1").text
             self.assertTrue(welcome_text == "Congratulations! You have successfully registered!",
-                            "registration2.html: Registration unsuccessful.")
+                            "registration1.html: Registration unsuccessful.")
 
         finally:
             time.sleep(10)
